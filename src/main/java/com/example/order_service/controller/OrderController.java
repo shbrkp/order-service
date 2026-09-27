@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
     @GetMapping("/orders")
     String getOrder(){
-        return "Order Service is running";
+        return "Order Service is Updated";
     }
 }
