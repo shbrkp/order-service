@@ -8,5 +8,5 @@ public class OrderController {
     @GetMapping("/orders")
     String getOrder(){
         return "Order Service is Updated - 7";
-    }
+
 }
